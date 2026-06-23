@@ -1,21 +1,45 @@
 # KHAWRIZM ABSOLUTE ARSENAL
-**Sovereign AI Infrastructure Stack** | Riyadh, Saudi Arabia 🇸🇦
+
+**Central Hub for the Sovereign AI Technology Stack**  
+Riyadh, Saudi Arabia 🇸🇦
 
 ## Overview
-KHAWRIZM ABSOLUTE ARSENAL is the centralized repository hosting the core functional modules, reasoning engines, and kernel security components of the sovereign stack. 
 
-## Repository Structure & Core Modules
-* **Core_CPP/**: The central core housing the C11 Neuro-Symbolic inference components.
-* **niyah-core/**: Core directory for Arabic NLP context and semantic logic processing.
-* **k-forge/**: Cryptographically immutable decentralized version control code base.
-* **Math_ASM/**: High-performance Assembly optimization layers and AVX acceleration code.
-* **UI_CSharp/**: Optional desktop management utilities and graphical orchestration interfaces.
+KHAWRIZM ABSOLUTE ARSENAL serves as the official reference and documentation hub for the sovereign technology ecosystem developed under the KHAWRIZM initiative. It provides a unified view of the core components, their relationships, and the security posture of the stack.
 
-## Supply Chain Security Posture
-Aligned with **OpenSSF** core infrastructure security baselines:
-1. **Deterministic Verification**: Mandatory `NIYAH-PROOF-V1` validation metrics generated on every inference session.
-2. **Provenance Attestation**: Progressive optimization toward automated SLSA framework build verification.
-3. **Artifact Integrity**: Release verification utilizing automated Sigstore Cosign code signing pipelines.
+## Core Components
+
+| Component              | Repository                                      | Language      | Role                                              | Status       |
+|------------------------|-------------------------------------------------|---------------|---------------------------------------------------|--------------|
+| **Casper Engine**      | [GrAxOS/Casper_Engine](https://github.com/GrAxOS/Casper_Engine) | C11           | Hybrid Neuro-Symbolic Inference + Cryptographic Proofs | Active    |
+| **Niyah Engine**       | [Grar00t/niyah-engine](https://github.com/Grar00t/niyah-engine)   | Python + C    | Arabic-First NLP, Intent Detection & Routing      | Active       |
+| **kspike**             | [GrAxOS/kspike](https://github.com/GrAxOS/kspike)                 | Rust + eBPF   | Kernel-level Defense Framework (Judge-Gated)      | Active       |
+| **HAVEN**              | [GrAxOS/haven-sovereign](https://github.com/GrAxOS/haven-sovereign) | TypeScript + Rust | Sovereign AI IDE (Three-Lobe Architecture)     | Active       |
+| **Khawrizm OS**        | [Grar00t/khawrizm-os](https://github.com/Grar00t/khawrizm-os)     | Rust + C      | Sovereign AI-Native Operating System              | In Progress  |
+| **K-Forge**            | [Grar00t/k-forge](https://github.com/Grar00t/k-forge)             | Python        | P2P Cryptographically Immutable Version Control   | Early        |
+
+## Supply Chain Security
+
+This stack follows **OpenSSF** security standards:
+
+- Cryptographic proof generation on every inference (`NIYAH-PROOF-V1`)
+- Progressive implementation of:
+  - OpenSSF Scorecard
+  - SLSA Build Provenance
+  - Sigstore (Cosign) signing
+
+## Philosophy
+
+- **Sovereignty by Design** — Zero telemetry, fully local execution
+- **Mathematical Verifiability** — Every critical output is provable
+- **Arabic as First-Class Citizen**
+- **Defense in Depth** — From kernel to application layer
 
 ## License
-AGPL-3.0 — The Digital Duty License
+
+AGPL-3.0 — Digital Duty
+
+---
+
+**Maintained by Sulaiman Alshammari (@Grar00t / Dragon403)**  
+Riyadh, Saudi Arabia
